@@ -1,0 +1,328 @@
+@font-face {
+  font-family: "AlwaysHere";
+  src: url(/fonts/AlwaysHere.ttf);
+  font-weight: normal;
+  font-style: normal; }
+
+#nav-shadow {
+  width: 100%; }
+  @media screen and (min-height: 29em) {
+    #nav-shadow {
+      min-height: 408px;
+      min-width: 2500px;
+      margin: 0;
+      background-image: url(/img/nav/l/l_nav_film_shadow.png);
+      background-repeat: repeat-x;
+      -moz-box-shadow: 10px 10px 10px #333333;
+      -webkit-box-shadow: 10px 10px 10px #333333;
+      box-shadow: 10px 10px 10px #333333; } }
+
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0 0 0 0;
+  padding: 0;
+  min-height: 210px;
+  min-width: 975px;
+  width: 100%;
+  background-image: url(/img/nav/s/s_nav_film.png);
+  background-repeat: repeat-x;
+  white-space: nowrap; }
+  nav .box {
+    position: relative;
+    display: inline-block;
+    margin: 0 0.5em 0 0.5em;
+    padding: 40px 0 40px 0;
+    min-height: 170px;
+    width: 300px;
+    min-width: 200px; }
+  nav #nav-photography {
+    background-image: url(/img/nav/m/m_nav_1.jpg); }
+  nav #nav-stylist {
+    background-image: url(/img/s/m/s_1.jpg); }
+  nav #nav-contact {
+    background-image: url(/img/c/m/c_m_1.jpg); }
+  nav .backdrop {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    height: 128px;
+    width: 100%;
+    background-size: 100% auto;
+    background-repeat: no-repeat; }
+  nav .link {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    height: 88px;
+    width: 100%;
+    padding-top: 40px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    font-size: 2em; }
+    nav .link:hover {
+      background: transparent;
+      opacity: 0; }
+    nav .link a {
+      color: darkorange;
+      text-decoration: none; }
+  @media screen and (min-height: 17.5em) {
+    nav {
+      min-height: 264px;
+      min-width: 1275px;
+      background-image: url(/img/nav/m/m_nav_film.png); }
+      nav .box {
+        padding: 50px 0 50px 0;
+        margin: 0 1px 0 6px;
+        min-height: 210px;
+        width: 388px; }
+      nav .backdrop {
+        top: 33px;
+        height: 144px;
+        width: 100%;
+        background-size: 400px auto;
+        background-repeat: no-repeat; }
+      nav .link {
+        top: 33px;
+        height: 95px;
+        width: 388px;
+        padding-top: 50px;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.8); } }
+  @media screen and (min-height: 29em) {
+    nav {
+      min-height: 449px;
+      min-width: 2500px;
+      background-image: url(/img/nav/l/l_nav_film.png);
+      font-size: 2em; }
+      nav #nav-photography {
+        background-image: url(/img/nav/l/l_nav_1.jpg); }
+      nav #nav-stylist {
+        background-image: url(/img/s/l/s_1.jpg); }
+      nav #nav-contact {
+        background-image: url(/img/c/l/c_l_1.jpg); }
+      nav .box {
+        padding: 100px 0 100px 0;
+        margin: 0px 10px 0 10px;
+        min-height: 210px;
+        width: 752px; }
+      nav .backdrop {
+        top: 64px;
+        height: 280px;
+        width: 100%;
+        background-size: 800px auto;
+        background-repeat: no-repeat; }
+      nav .link {
+        top: 64px;
+        height: 180px;
+        width: 100%;
+        padding-top: 100px;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.8); } }
+
+#photography {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  min-width: 480px;
+  min-height: 320px;
+  background-image: url(/img/cp/s/cp_s_museum.jpg);
+  background-size: 480px auto;
+  background-repeat: no-repeat;
+  border-collapse: collapse;
+  text-align: center; }
+  #photography #previous-cp {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    height: 25px;
+    width: 25px;
+    background-image: url(/img/interact/l/interact_l_previous.png);
+    background-size: 25px auto;
+    cursor: pointer; }
+  #photography #next-cp {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    height: 25px;
+    width: 25px;
+    background-image: url(/img/interact/l/interact_l_next.png);
+    background-size: 25px auto;
+    cursor: pointer; }
+  #photography #photo-cp {
+    position: relative;
+    top: 48px;
+    height: 200px;
+    width: auto;
+    max-height: 200px;
+    max-width: 384px;
+    margin: 0 auto;
+    border: 1px solid gray;
+    -moz-box-shadow: 10px 10px 5px #888888;
+    -webkit-box-shadow: 10px 10px 5px #888888;
+    box-shadow: 10px 10px 5px #888888; }
+  @media screen and (min-width: 30em), screen and (min-height: 20em) {
+    #photography {
+      width: 100%;
+      height: 100%;
+      background-image: url(/img/cp/m/cp_m_museum.jpg);
+      background-size: 1024px auto;
+      min-width: 1024px;
+      min-height: 682px; }
+      #photography #previous-cp {
+        position: absolute;
+        bottom: 40px;
+        left: 40px;
+        height: 50px;
+        width: 50px;
+        background-image: url(/img/interact/l/interact_l_previous.png);
+        background-size: 50px auto; }
+      #photography #next-cp {
+        position: absolute;
+        bottom: 40px;
+        right: 40px;
+        height: 50px;
+        width: 50px;
+        background-image: url(/img/interact/l/interact_l_next.png);
+        background-size: 50px auto; }
+      #photography #photo-cp {
+        top: 100px;
+        height: 430px;
+        max-height: 430px;
+        max-width: 819.2px; } }
+  @media screen and (min-width: 64em), screen and (min-height: 40em) {
+    #photography {
+      background-image: url(/img/cp/l/cp_l_museum.jpg);
+      width: 100%;
+      height: 100%;
+      background-size: 1535px auto;
+      background-repeat: repeat-x;
+      min-width: 1535px;
+      min-height: 1022px; }
+      #photography #previous-cp {
+        position: absolute;
+        bottom: 40px;
+        left: 20px;
+        height: 100px;
+        width: 100px;
+        background-image: url(/img/interact/l/interact_l_previous.png);
+        background-size: 100% 100%; }
+      #photography #next-cp {
+        position: absolute;
+        bottom: 40px;
+        right: 20px;
+        height: 100px;
+        width: 100px;
+        background-image: url(/img/interact/l/interact_l_next.png);
+        background-size: 100% 100%; }
+      #photography #photo-cp {
+        top: 150px;
+        height: 648px;
+        max-height: 648px;
+        max-width: 1228px; } }
+
+#stylist {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 480px;
+  background-image: url(/img/s/wall.jpg);
+  background-repeat: repeat;
+  border-collapse: collapse;
+  text-align: center; }
+  #stylist #mirror {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 480px;
+    height: 320px;
+    background-image: url(/img/s/s/mirror.jpg);
+    background-size: 100% 100%; }
+  #stylist #photo-s {
+    position: relative;
+    top: 53px;
+    width: auto;
+    max-height: 216px;
+    max-width: 480px; }
+  #stylist #mirror {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 480px;
+    height: 320px;
+    background-image: url(/img/s/s/mirror.jpg);
+    background-size: 100% 100%; }
+  @media screen and (min-width: 480px), screen and (min-height: 320px) {
+    #stylist {
+      width: 1280px;
+      height: 720px; }
+      #stylist #mirror {
+        position: relative;
+        top: 100px;
+        margin: 0 auto;
+        height: 500px;
+        width: 750px;
+        background-image: url(/img/s/m/mirror.jpg);
+        background-size: 100% 100%;
+        -moz-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.7);
+        -webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.7);
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.7); }
+      #stylist #photo-s {
+        position: relative;
+        top: 83px;
+        width: auto;
+        max-height: 337px;
+        max-width: 800px;
+        opacity: 0.9; } }
+  @media screen and (min-width: 1280px), screen and (min-height: 720px) {
+    #stylist {
+      min-height: 100%;
+      min-width: 100%; }
+      #stylist #mirror {
+        position: relative;
+        top: 50px;
+        margin: 0 auto;
+        height: 720px;
+        width: 1000px;
+        background-image: url(/img/s/m/mirror.jpg);
+        background-size: 100% 100%;
+        -moz-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.7);
+        -webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.7);
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.7); }
+      #stylist #photo-s {
+        position: relative;
+        top: 120px;
+        width: auto;
+        max-height: 485px;
+        max-width: 850px;
+        opacity: 0.9; } }
+
+#contact {
+  font-size: 2em; }
+  @media screen and (min-height: 320px) {
+    #contact {
+      font-size: 4em; } }
+  @media screen and (min-height: 720px) {
+    #contact {
+      font-size: 6em; } }
+
+.about {
+  font-size: 0.3em; }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: orange;
+  font-family: "AlwaysHere"; }
+
+.note {
+  margin: 30px 0 0 15px;
+  color: black; }

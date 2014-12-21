@@ -1,0 +1,32 @@
+extends ./layout
+
+//- The main navigation pages content is the navigation itself.  
+  The whole page is a film strip.
+  Each navigation box is inside the strip.
+  Hover over a particular link hides the text and highlights the image.
+  Clicking permanently highlights the image plays a sound,
+  then scrolls the entire film strip off the page as the sound occurs.
+
+block content
+  div(id='nav-shadow')
+    //-Shadow Backdrop Image
+  nav
+    div(class='box')
+      div(class='backdrop', id='nav-photography')
+        // Image Here
+      div(class='link')
+        a(href='/creative_photography') Creative Photography
+    div(class='box')
+      div(class='backdrop', id='nav-stylist')
+        // Image Here
+      div(class='link')
+        a(href='/bridal_hair_stylist') Bridal Hair Stylist
+    div(class='box')
+      div(class='backdrop', id='nav-contact')
+        // Image Here
+      div(class='link')
+        a(href='/contact_annie') Contact
+          
+  
+  p(class='note') Please scroll to the right
+  p(class='note') Website created by Benjamin Olson

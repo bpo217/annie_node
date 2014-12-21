@@ -1,0 +1,6 @@
+*.sassc
+*.sass
+node_modules/*
+combiner.js
+*.coffee
+*.log
