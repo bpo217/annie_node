@@ -6,11 +6,12 @@ extends ./layout
   The buttons should not render on mobile versions of the site.
   Swipe Gestures will control moving to the next and previous image.
 
+block headerNav
+  nav(id='header-nav')
+    div
+      a(href='/creative_photography') Creative Photography
+    div
+      a(href='/') Home
+    div
+      a(href='/contact_annie') Me
 block content
-  div(id='stylist')
-    div(class='previous')
-      //Placeholder
-    div(id='mirror')
-      img(id='photo-s')
-    div(class='next')
-      //Placeholder

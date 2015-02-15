@@ -7,32 +7,26 @@ extends ./layout
   Clicking permanently highlights the image plays a sound,
   then scrolls the entire film strip off the page as the sound occurs.
 
-block content
-  div(id='page')
+block headerNav
+  nav(id='header-nav')
     div
-      div(id='top-header') Annie's Website!
-      hr(class='seperator')
-      nav(id='header-nav')
-        div
-          a(href='/creative_photography') Creative Photography
-        div
-          a(href='/bridal_hair_stylist') Bridal Hair Stylist
-        div
-          a(href='/contact_annie') Contact
-      hr(class='seperator')
-      div(id='collage')
-        div
-          a(href='/img/cp/l/2.jpg')
-            img(src='/img/cp/s/2.jpg')
-          a(href='/img/cp/l/2.jpg')
-            img(src='/img/cp/s/2.jpg')
-          a(href='/img/cp/l/2.jpg')
-            img(src='/img/cp/s/2.jpg')
-          a(href='/img/cp/l/2.jpg')
-            img(src='/img/cp/s/2.jpg')
-          a(href='/img/cp/l/2.jpg')
-            img(src='/img/cp/s/2.jpg')
-          a(href='/img/cp/l/2.jpg')
-            img(src='/img/cp/s/2.jpg')
-    
-      p(class='note', id='creator-note') Site by Benjamin Olson for Annie Ainley
+      a(href='/creative_photography') Creative Photography
+    div
+      a(href='/bridal_hair_stylist') Bridal Hair Stylist
+    div
+      a(href='/contact_annie') Me
+block content
+  div(id='collage')
+    div
+      a(href='/img/cp/l/2.jpg')
+        img(src='/img/cp/s/2.jpg')
+      a(href='/img/cp/l/2.jpg')
+        img(src='/img/cp/s/2.jpg')
+      a(href='/img/cp/l/2.jpg')
+        img(src='/img/cp/s/2.jpg')
+      a(href='/img/cp/l/2.jpg')
+        img(src='/img/cp/s/2.jpg')
+      a(href='/img/cp/l/2.jpg')
+        img(src='/img/cp/s/2.jpg')
+      a(href='/img/cp/l/2.jpg')
+        img(src='/img/cp/s/2.jpg')

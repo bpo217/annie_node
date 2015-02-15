@@ -5,7 +5,15 @@ html(lang='en')
     meta(charset='UTF-8')
     link(rel='stylesheet', href='/css/main.css', type='text/css')
   body
-    block content
+    div(id='page')
+      div
+        div(id='top-header')
+          a(href='/') Annie
+        hr(class='seperator')
+        block headerNav
+        hr(class='seperator')
+        block content
+      p(id='creator-note') Site by Benjamin Olson for Annie Ainley
     // Library Scripts
     script(type='text/javascript' src='/js/jquery-2.1.1.min.js')
     // App Scripts
