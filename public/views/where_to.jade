@@ -8,25 +8,31 @@ extends ./layout
   then scrolls the entire film strip off the page as the sound occurs.
 
 block content
-  div(id='nav-shadow')
-    //-Shadow Backdrop Image
-  nav
-    div(class='box')
-      div(class='backdrop', id='nav-photography')
-        // Image Here
-      div(class='link')
-        a(href='/creative_photography') Creative Photography
-    div(class='box')
-      div(class='backdrop', id='nav-stylist')
-        // Image Here
-      div(class='link')
-        a(href='/bridal_hair_stylist') Bridal Hair Stylist
-    div(class='box')
-      div(class='backdrop', id='nav-contact')
-        // Image Here
-      div(class='link')
-        a(href='/contact_annie') Contact
-          
-  
-  p(class='note', id='scroll-note') Please scroll to the right 
-  p(class='note', id='creator-note') Site by Benjamin Olson for Annie Ainley
+  div(id='page')
+    div
+      div(id='top-header') Annie's Website!
+      hr(class='seperator')
+      nav(id='header-nav')
+        div
+          a(href='/creative_photography') Creative Photography
+        div
+          a(href='/bridal_hair_stylist') Bridal Hair Stylist
+        div
+          a(href='/contact_annie') Contact
+      hr(class='seperator')
+      div(id='collage')
+        div
+          a(href='/img/cp/l/2.jpg')
+            img(src='/img/cp/s/2.jpg')
+          a(href='/img/cp/l/2.jpg')
+            img(src='/img/cp/s/2.jpg')
+          a(href='/img/cp/l/2.jpg')
+            img(src='/img/cp/s/2.jpg')
+          a(href='/img/cp/l/2.jpg')
+            img(src='/img/cp/s/2.jpg')
+          a(href='/img/cp/l/2.jpg')
+            img(src='/img/cp/s/2.jpg')
+          a(href='/img/cp/l/2.jpg')
+            img(src='/img/cp/s/2.jpg')
+    
+      p(class='note', id='creator-note') Site by Benjamin Olson for Annie Ainley

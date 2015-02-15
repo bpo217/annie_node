@@ -4,3 +4,4 @@ node_modules/*
 combiner.js
 *.coffee
 *.log
+.DS_Store
