@@ -43,6 +43,7 @@ NAV BAR
   text-align: center;
   font-size: 125%;
   padding: 1.25em 1em 1.25em 1em;
+  clear: both;
 }
 
 #header-nav div {
@@ -80,6 +81,50 @@ COLLAGE
 }
 
 /*\COLLAGE*/
+
+#creative-collage {
+  margin: 2em 1em 2em 1em;
+  text-align: center;
+  vertical-align: top;
+}
+
+#creative-collage div {
+  vertical-align: top;
+}
+
+#creative-collage .left-col {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+#creative-collage .right-col {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+#creative-collage img {
+  display: block;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  border: 0;
+  cursor: pointer;
+  vertical-align: top;
+  box-shadow: 10px 10px 30px #333333;
+}
+
+#creative-collage img:hover {
+  box-shadow: 10px 10px 30px #eeaa00;
+}
+
+/*
+CREATIVE COLLAGE
+*/
+
+
+
+/*\CREATIVE COLLAGE*/
 
 body {
   margin: 0;
